@@ -1,4 +1,4 @@
-module github.com/canonical/tcglog-parser
+module github.com/mikem-zed/tcglog-parser
 
 go 1.13
 
@@ -19,3 +19,5 @@ require (
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
 )
+
+replace github.com/canonical/tcglog-parser => github.com/mikem-zed/tcglog-parser eve-tpm-log
